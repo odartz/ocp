@@ -1,0 +1,72 @@
+
+body {
+    margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #ffffff;
+	font-size: 15px;
+	font-family: Helvetica, sans-serif;
+}
+
+body, html {
+	height: 100%;
+}
+
+#logo {
+	position: absolute;
+	display: block;
+	width: 360px;
+	height: 103px;
+	left: 50%;
+	top: 50%;
+	margin-left: -180px;
+	margin-top: -51px;
+	z-index: 9;
+}
+
+#address {
+	position: absolute;
+	display: block;
+	width: 360px;
+	height: 103px;
+	left: 50%;
+	bottom: 20px;
+	margin-left: -180px;
+	text-align: center;
+	z-index: 8;
+}
+
+#address h1 {
+	color: #ffffff;
+	font-size: 15px;
+	font-family: Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+#address a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.carouselItem {
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	white-space: normal;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.carouselItem img {
+		bottom: 0;
+		min-height: 100%;
+		min-width: 100%;
+		position: absolute;
+}
+
+.smaller {
+	font-size: 10px;
+}
