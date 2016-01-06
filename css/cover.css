@@ -27,6 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
+  background-color: #222;
   background-image: url("../img/pix-01.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -116,7 +117,7 @@ body {
  */
 
 .cover {
-  padding: 0 20px;
+  padding: 20px 20px 0 0;
 }
 .cover .btn-lg {
   padding: 10px 20px;
